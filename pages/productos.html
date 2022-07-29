@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="fst-italic">
+      Bienvenidx a Heavenly!<br />
+      <a href=""><img src="../images/logo500.jpeg" alt="" height="100" /></a>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light;">
+      
+      <div class="container-fluid">
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="../images/logo500.jpeg"
+              height="50"
+              alt="Logo"
+              loading="lazy"
+            />
+          </a>
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-2">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntas.html">Preguntas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          
+        </div>
+        
+
+        
+        <div class="d-flex align-items-center">
+          
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+        
+      </div>
+      
+    </nav>
+    <section class="filter p-5">
+      <h1>Filtros de busqueda</h1>
+      <div class="filterContainer p-3">
+        <form class="row gy-2 gx-3 align-items-center">
+          <div class="col-auto">
+            <div class="form-outline">
+              <input type="text" id="form11Example1" class="form-control" />
+              <label class="form-label" for="form11Example1">Label</label>
+            </div>
+          </div>
+
+          <div class="col-auto">
+            <div class="form-outline">
+              <input type="text" id="form11Example3" class="form-control" />
+              <label class="form-label" for="form11Example3">Label</label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="form11Example4"
+                checked
+              />
+              <label class="form-check-label" for="form11Example4">
+                Checked switch checkbox input
+              </label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">BUSCAR</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="productos pe-3 ps-3">
+      <div class="d-flex justify-content-center">
+        <h2>x resultados encontrados</h2>
+      </div>
+
+      <div class="card-deck">
+        <div class="row pt-5 pe-5 ps-5 gy-5 mb-3 ">
+          <div class="card me-4 p-0 col pCard">
+            <img src="../images/nailart500.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Producto X</h5>
+              <p class="card-text">
+                Descripcion
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-rounded pt-2 pb-2 ps-4 pe-4 border-2"
+                data-mdb-ripple-color="dark"
+              >
+              Añadir al carrito>
+              </button>
+            </div>
+          </div>
+          <div class="card ms-4 p-0 col  pCard">
+            <img
+              src="../images/maquillaje500.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Producto X</h5>
+              <p class="card-text">
+                Descripcion
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-rounded pt-2 pb-2 ps-4 pe-4 border-2"
+                data-mdb-ripple-color="dark"
+              >
+                Añadir al carrito>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 pe-5 ps-5 mb-3 gy-5 ">
+          <div class="card me-4 p-0 col pCard">
+            <img src="../images/nailart500.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Producto X</h5>
+              <p class="card-text">
+                Descripcion
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-rounded pt-2 pb-2 ps-4 pe-4 border-2"
+                data-mdb-ripple-color="dark"
+              >
+              Añadir al carrito>
+              </button>
+            </div>
+          </div>
+          <div class="card ms-4 p-0 col  pCard">
+            <img
+              src="../images/maquillaje500.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Producto X</h5>
+              <p class="card-text">
+                Descripcion
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-rounded pt-2 pb-2 ps-4 pe-4 border-2"
+                data-mdb-ripple-color="dark"
+              >
+                Añadir al carrito>
+              </button>
+            </div>
+          </div>
+
+        
+      </div>
+      
+    </section>
+    <footer class=" text-center text-dark">
+      
+      <div class="container p-4">
+        
+        <section class="mb-4">
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="./images/facebook.svg"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          
+          <a
+            class="btn btn-outline-dark btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        
+
+        
+        <section class="">
+          <form action="">
+            
+            <div class="row d-flex justify-content-center">
+              
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong
+                    >Dejannos tu correo para notificarte promociones y
+                    ofertas!</strong
+                  >
+                </p>
+              </div>
+              
+
+              
+              <div class="col-md-5 col-12">
+                
+                <div class="form-outline form-dark mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Correo electronico</label
+                  >
+                </div>
+              </div>
+              
+
+              
+              <div class="col-auto">
+                
+                <button type="submit" class="btn btn-outline-dark mb-4">
+                  Subscribirse
+                </button>
+              </div>
+              
+            </div>
+            
+          </form>
+        </section>
+        
+
+        
+        <section class="mb-4"></section>
+        
+
+        
+        <section class="">
+          
+          <div class="row sectionLinks">
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links de interes</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Terminos y Condiciones</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Politicas de consumo</a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+          
+        </section>
+        
+      </div>
+      
+
+      
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        Heavenly
+      </div>
+      
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+    ></script>
+  </body>
+</html>

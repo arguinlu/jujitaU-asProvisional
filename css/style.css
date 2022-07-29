@@ -1,0 +1,117 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap");
+/* Colors:
+    Header: #FCF5EE
+    Body:   #FBE8E7
+    Footer: #F7DDDE
+    Alt:    #FFC4D0*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  font-size: larger;
+  text-align: center;
+  background-color: #fcf5ee;
+}
+
+div.slide {
+  padding: 0px;
+}
+
+nav {
+  background-color: #fbe8e7;
+}
+
+
+.cardFlex {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.types {
+  background-color: #f7ddde;
+}
+
+
+
+section.contact form {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.filterContainer {
+  background-color: #fcf5ee;
+  border: 5px solid #ffc4d0;
+}
+.filter {
+  background-color: #f7ddde;
+}
+.productos {
+  background-color: #fbe8e7;
+}
+.pCard {
+  height: auto;
+  margin-bottom: 1rem;
+}
+summary,
+.card-body {
+  background-color: #fcf5ee;
+  height: 17rem;
+}
+.btn-outline-primary {
+  color: #ff6886;
+  border-color: #ff6886;
+}
+.terms {
+  background-color: #fbe8e7;
+}
+.bgCustomTerms {
+  background-color: #ffc4d0;
+}
+.borderTerm {
+  border: 5px solid #ffc4d0;
+  border-radius: 2rem;
+}
+
+
+
+footer div.container {
+  background-color: #ffc4d0;
+}
+footer {
+  background-color: #ffc4d0;
+}
+
+@media screen and (max-width: 767px) {
+  .cardMarg {
+    margin: 2rem 20% 0rem 20%;
+  }
+  .row {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section.types {
+    padding: 2rem 10rem 2rem 10rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+}
+  
+  
+
+@media screen and (min-width: 1024px) {
+  * {
+    font-size: 20px;
+  }
+  nav {
+    font-size: 40px;
+    }   
+  }
