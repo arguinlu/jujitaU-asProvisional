@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap");
+
+    $color1:    #FCF5EE;
+    $color2:    #FBE8E7;
+    $color3:    #F7DDDE;
+    $color4:    #FFC4D0;
+    $color5:    #ff6886;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  font-size: larger;
+  text-align: center;
+  background-color: $color1
+    
+}
+
+div.slide {
+  padding: 0px;
+}
+
+nav {
+  background-color: $color2;
+}
+
+
+.cardFlex {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.types {
+  background-color: $color3;
+}
+
+
+
+section.contact form {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.filterContainer {
+  background-color: $color1;
+  border: 5px solid $color4;
+}
+.filter {
+  background-color: $color3;
+}
+.productos {
+  background-color: $color2;
+}
+.pCard {
+  height: auto;
+  margin-bottom: 1rem;
+}
+summary,
+.card-body {
+  background-color: $color1;
+  height: 17rem;
+}
+.btn-outline-primary {
+  color: $color5;
+  border-color: $color5;
+}
+.terms {
+  background-color: $color2;
+}
+.bgCustomTerms {
+  background-color: $color4;
+}
+.borderTerm {
+  border: 5px solid $color4;
+  border-radius: 2rem;
+}
+
+
+
+footer div.container {
+  background-color: $color4;
+}
+footer {
+  background-color: $color4;
+}
+
+@media screen and (max-width: 767px) {
+  .cardMarg {
+    margin: 2rem 20% 0rem 20%;
+  }
+  .row {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section.types {
+    padding: 2rem 10rem 2rem 10rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+}
+  
+  
+
+@media screen and (min-width: 1024px) {
+  * {
+    font-size: 20px;
+  }
+  nav {
+    font-size: 40px;
+    }   
+  }
